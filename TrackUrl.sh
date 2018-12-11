@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#64-bit
+64-bit
 #xterm -e ./ngrok_64 http 80 & clear
 
 #32-bit
@@ -67,3 +67,4 @@ echo "         ______________________________________________________
 xterm -e tail -f /var/log/apache2/access.log &
 clear
 exit
+./TrackUrl.sh
